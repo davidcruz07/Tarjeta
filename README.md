@@ -1,5 +1,7 @@
 # Tarjeta Dinámica en Angular 
 
+<img width="1526" height="871" alt="image" src="https://github.com/user-attachments/assets/ff7716ca-a75f-419c-9be8-d2fd9f86d0d3" />
+
 ## 📝 Descripción
 Esta aplicación es una interfaz interactiva que implementa una tarjeta de perfil de usuario reactiva. El proyecto demuestra el uso de componentes dinámicos y la gestión de estados en Angular.
 
