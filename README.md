@@ -1,5 +1,26 @@
-# TareaPresentacion
+# Tarjeta Dinámica en Angular 
 
+## 📝 Descripción
+Esta aplicación es una interfaz interactiva que implementa una tarjeta de perfil de usuario reactiva. El proyecto demuestra el uso de componentes dinámicos y la gestión de estados en Angular.
+
+## 🛠️ Funcionalidades
+- **Edición en tiempo real:** Uso de `Two-way Data Binding` para actualizar el nombre y la edad instantáneamente en la tarjeta.
+- **Interacción dinámica:** Botón de "Like" (pulgar arriba) integrado directamente en la tarjeta con contador de interacciones.
+
+## 🚀 Instalación y Ejecución
+Para ejecutar este proyecto localmente, sigue estos pasos:
+
+1. **Clonar el repositorio:**
+   `git clone https://github.com/davidcruz07/Tarjeta.git`
+
+2. **Configuración y Visualización:**
+   Ejecuta los siguientes comandos en tu terminal dentro de la carpeta del proyecto:
+   ```bash
+   npm install          # Instala todas las dependencias necesarias
+   ng serve             # Levanta el servidor de desarrollo local
+3. **Acceso al Navegador:**
+   Una vez que el servidor esté listo, abre tu navegador en la dirección: `http://localhost:4200/`
+   
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.6.
 
 ## Development server
