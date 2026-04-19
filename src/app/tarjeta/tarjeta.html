@@ -1,0 +1,46 @@
+<div class="container">
+  
+  <aside class="datos-panel">
+    <h3>Datos</h3>
+    <div class="input-group">
+      <input type="text" [(ngModel)]="nombre" name="userName" placeholder="Ingresa Nombre">
+    </div>
+    <div class="input-group">
+      <input type="number" [(ngModel)]="edad" name="userAge" placeholder="Ingresa Edad">
+    </div>
+    
+    <button class="btn-reset-modern" (click)="resetearContador()">
+      Reiniciar
+    </button>
+  </aside>
+
+  <main class="card-viewer">
+    <div class="profile-card">
+      
+      <div class="avatar-holder">
+        <span class="avatar-icon">👤</span>
+        <div class="status-dot"></div>
+      </div>
+      
+      <h2 class="profile-name">{{ nombre || 'Nombre Apellido' }}</h2>
+      <div class="age-pill">
+        <span class="age-label">EDAD</span>
+        <span class="age-value">{{ edad || '--' }}</span>
+      </div>
+
+      <div class="card-divider"></div>
+
+      <div class="actions-area">
+        <button class="btn-like-integrated" (click)="incrementarContador()">
+          <span class="thumb-icon">👍</span> Dar Like
+        </button>
+      </div>
+      
+      <footer class="likes-stat">
+        <p>A {{ contador }} personas les gusta esto</p>
+      </footer>
+      
+    </div>
+  </main>
+
+</div>
